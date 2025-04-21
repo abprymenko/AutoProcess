@@ -2,15 +2,19 @@
  
 Automatic process update
  
-### Commands: -------
+### Commands:
+-------
 
-* **INIT** ``` git init
+* **INIT**
+```
+git init
 ```
 
 * **CLONE** ``` git clone https://github.com/abprymenko/AutoProcess.git ```
- 
+
 _... perform some manipulations with a code ..._
- 
+
+
 * **STATUS** ``` git status --short
 ```
  
