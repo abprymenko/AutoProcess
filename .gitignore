@@ -1,0 +1,46 @@
+# Compiled Object files
+*.sln.cache
+*.dll
+*.exe
+*.pdb
+*.dll.config
+
+# NuGet Packages
+*.nupkg
+**/packages/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+!build/ReadMe.txt
+
+# Visual Studio files
+.vs/
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.libs
+*.sbr
+*.sdf
+ipch/
+obj/
+TestResults/
+[Bb]in/
+[Nn]ode[Gg]lobal[Cache]/
+.idea/
+*.swp
+*.user
+*.sln.docstates
+
+# Resharper
+_ReSharper*/
+*.resharper*
