@@ -1,0 +1,1775 @@
+
+2025-04-14 11:41:07 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: 8.6.8
+
+2025-04-14 11:41:07 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Program Files\Notepad++\updater\GUP.exe ...
+
+2025-04-14 11:41:07 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Program Files\Notepad++\updater\GUP.exe
+
+2025-04-14 11:41:08 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]: 
+
+2025-04-14 11:41:08 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-14 11:41:08 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1073740791
+
+2025-04-14 11:41:08 [11] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Test failed]: ❌ Possible causes: corrupt files, bad DLL, or antivirus interference.
+
+2025-04-14 11:41:08 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: 5.13.1.0
+
+2025-04-14 11:41:08 [19] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Users\AndriiPrymenko\AppData\Roaming\Telegram Desktop\Updater.exe ...
+
+2025-04-14 11:41:08 [19] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Users\AndriiPrymenko\AppData\Roaming\Telegram Desktop\Updater.exe
+
+2025-04-14 11:41:09 [18] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]: 
+
+2025-04-14 11:41:09 [18] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-14 11:41:09 [18] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: 0
+
+2025-04-14 11:41:09 [11] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Test failed]:   The versions are equal: 5.13.1.0 == 5.13.1.0
+Assert.That(newVersion, Is.Not.EqualTo(originalVersion))
+  Expected: not equal to "5.13.1.0"
+  But was:  "5.13.1.0"
+
+
+2025-04-14 11:41:09 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name Telegram ...
+
+2025-04-14 11:41:09 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'Telegram' has been terminated.
+
+2025-04-14 11:41:09 [18] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: 6.4.3.63669
+
+2025-04-14 11:41:09 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Temp\ZoomInstallerFull.exe ...
+
+2025-04-14 11:41:09 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Temp\ZoomInstallerFull.exe
+
+2025-04-14 11:41:23 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]: 
+
+2025-04-14 11:41:23 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-14 11:41:23 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: 0
+
+2025-04-14 11:41:23 [10] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Test failed]:   The versions are equal: 6.4.3.63669 == 6.4.3.63669
+Assert.That(newVersion, Is.Not.EqualTo(originalVersion))
+  Expected: not equal to "6.4.3.63669"
+  But was:  "6.4.3.63669"
+
+
+2025-04-14 11:41:23 [19] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name Zoom ...
+
+2025-04-14 11:41:23 [19] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'Zoom' has been terminated.
+
+2025-04-14 11:41:23 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [⚠️ Original version]: 135.0.3179.73
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:24 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:24 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:24 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:24 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:24 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:24 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:24 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:24 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:24 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:24 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-14 11:41:24 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-14 11:41:24 [19] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe ...
+
+2025-04-14 11:41:24 [19] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe
+
+2025-04-14 11:41:28 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🔍 Output]: 
+
+2025-04-14 11:41:28 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🛠 Error]: 
+
+2025-04-14 11:41:28 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🔚 Exit Code]: -2147218431
+
+2025-04-14 11:41:28 [11] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🛠 Test failed]: ❌ msedge failed.\r\nThere was a problem during installation.\r\n
+
+2025-04-14 11:41:28 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [⚠️ Original version]: 135.0.3179.73
+
+2025-04-14 11:41:28 [19] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-14 11:41:28 [19] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-14 11:41:34 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🔍 Output]:    -    \    |    /                                                                                                                           █████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒  1024 KB / 1.76 MB  ██████████████████████████████  1.76 MB / 1.76 MB                                                                                                                          ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  0%  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  0%  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  1%  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  2%  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  3%  █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  4%  █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  5%  ██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  7%  ██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  8%  ██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  9%  ███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  10%  ███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  11%  ███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  12%  ███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  13%  ████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  14%  ████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  15%  ████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  16%  █████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  17%  █████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  18%  █████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  19%  ████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  41%  ████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  42%  ████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  43%  █████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  44%  █████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  45%  █████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  46%  ██████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  47%  ██████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  48%  ██████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  49%  ███████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  50%  ███████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  51%  ███████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  52%  ███████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  53%  ████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒  54%  ████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒  55%  █████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒  59%  ██████████████████▒▒▒▒▒▒▒▒▒▒▒▒  60%  ██████████████████▒▒▒▒▒▒▒▒▒▒▒▒  61%  ██████████████████▒▒▒▒▒▒▒▒▒▒▒▒  62%  ████████████████████▒▒▒▒▒▒▒▒▒▒  67%  █████████████████████▒▒▒▒▒▒▒▒▒  70%  ████████████████████████▒▒▒▒▒▒  81%  █████████████████████████████▒  99%  █████████████████████████████▒  99%  ██████████████████████████████  100%                                                                                                                           -    \    |                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-14 11:41:34 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🛠 Error]: 
+
+2025-04-14 11:41:34 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-14 11:41:34 [11] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - ✅ msedge is already up to date.
+
+2025-04-14 11:50:04 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [⚠️ Original version]: msedge - 135.0.3179.73
+
+2025-04-14 11:50:04 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe ...
+
+2025-04-14 11:50:04 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe
+
+2025-04-14 11:50:06 [18] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🔍 Output]: 
+
+2025-04-14 11:50:06 [18] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🛠 Error]: 
+
+2025-04-14 11:50:06 [18] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🔚 Exit Code]: -2147218431
+
+2025-04-14 11:50:06 [18] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🛠 Test failed]: ❌ msedge failed.\r\nThere was a problem during installation.\r\n
+
+2025-04-14 11:50:06 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [⚠️ Original version]: msedge - 135.0.3179.73
+
+2025-04-14 11:50:06 [19] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-14 11:50:07 [19] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-14 11:50:09 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🔍 Output]:    -    \                                                                                                                            -    \    |                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-14 11:50:09 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🛠 Error]: 
+
+2025-04-14 11:50:09 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-14 11:50:09 [10] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - ✅ msedge is already up to date.
+
+2025-04-14 11:56:55 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Originalversion]: Zoom - 6.4.3.63669
+
+2025-04-14 11:56:55 [22] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starte C:\Temp\ZoomInstallerFull.exe ...
+
+2025-04-14 11:56:55 [22] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Warten auf den Abschlussprozess C:\Temp\ZoomInstallerFull.exe
+
+2025-04-14 11:57:08 [21] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Ausgabe]: 
+
+2025-04-14 11:57:08 [21] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Fehler]: 
+
+2025-04-14 11:57:08 [21] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Beendigungscode]: 0
+
+2025-04-14 11:57:08 [19] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Test fehlgeschlagen]:   Die Versionen sind gleich: 6.4.3.63669 == 6.4.3.63669
+Assert.That(newVersion, Is.Not.EqualTo(originalVersion))
+  Expected: not equal to "6.4.3.63669"
+  But was:  "6.4.3.63669"
+
+
+2025-04-14 11:57:08 [21] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Beende Prozesse mit dem Namen Zoom ...
+
+2025-04-14 11:57:08 [21] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Der Prozess mit dem Namen 'Zoom' wurde beendet.
+
+2025-04-21 13:02:53 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [⚠️ Original version]: msedge - 135.0.3179.85
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:02:54 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:03:15 [19] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 13:03:15 [19] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 13:03:28 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🔍 Output]:    -    \    |                                                                                                                           ████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒  1024 KB / 1.78 MB  ██████████████████████████████  1.78 MB / 1.78 MB                                                                                                                          ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  0%  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  0%  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  1%  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  2%  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  3%  █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  4%  █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  5%  ██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  7%  ██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  8%  ██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  9%  ███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  10%  ███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  11%  ███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  13%  ████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  14%  ████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  15%  █████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  17%  █████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  18%  █████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  19%  ██████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  20%  ██████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  21%  ██████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  23%  ███████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  24%  ███████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  25%  ███████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  26%  ████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  27%  ████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  28%  █████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  30%  █████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  31%  █████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  32%  █████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  33%  ██████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  34%  ██████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  35%  ██████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  36%  ███████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  37%  ███████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  38%  ███████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  39%  ████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  40%  ████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  41%  ████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  42%  ████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  43%  █████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  44%  █████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  45%  █████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  46%  ██████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  47%  ██████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  48%  ██████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  49%  ███████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  50%  ███████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  51%  ███████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  52%  █████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒  57%  ██████████████████▒▒▒▒▒▒▒▒▒▒▒▒  62%  ██████████████████████▒▒▒▒▒▒▒▒  76%  █████████████████████████████▒  99%  █████████████████████████████▒  99%  ██████████████████████████████  100%                                                                                                                           -    \                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 13:03:29 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🛠 Error]: 
+
+2025-04-21 13:03:30 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 13:04:51 [10] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - ✅ msedge is already up to date.
+
+2025-04-21 13:19:06 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [⚠️ Original version]: msedge - 135.0.3179.85
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:19:06 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:19:07 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:19:07 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:19:07 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:19:07 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:19:07 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:19:07 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:19:07 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:19:07 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 13:19:07 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 13:19:16 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 13:19:16 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 13:19:18 [21] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🔍 Output]: 
+
+2025-04-21 13:19:18 [21] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🛠 Error]: 
+
+2025-04-21 13:19:18 [21] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 13:19:18 [21] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateEdgeBrowser_Test - ✅ msedge is already up to date.
+
+2025-04-21 13:35:38 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 13:35:38 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Program Files (x86)\Google\Update\GoogleUpdate.exe ...
+
+2025-04-21 13:35:38 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Program Files (x86)\Google\Update\GoogleUpdate.exe
+
+2025-04-21 13:35:38 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 13:35:38 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 13:35:38 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: 75009
+
+2025-04-21 13:35:38 [20] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Test failed]: ⚠️ An error occurred while checking/updating chrome.\r\nThe update check failed or the update is pending.\r\nSee the error output for more details.
+
+2025-04-21 13:35:38 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 13:35:38 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 13:35:39 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 13:35:41 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 13:35:41 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 13:35:41 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 13:35:41 [19] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Test failed]: ⚠️ An error occurred while checking/updating chrome.\r\nThe update check failed or the update is pending.\r\nSee the error output for more details.
+
+2025-04-21 13:37:08 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 13:37:08 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Program Files (x86)\Google\Update\GoogleUpdate.exe ...
+
+2025-04-21 13:37:08 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Program Files (x86)\Google\Update\GoogleUpdate.exe
+
+2025-04-21 13:53:16 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 13:53:16 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 13:53:16 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: 75009
+
+2025-04-21 13:53:16 [20] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Test failed]: ⚠️ An error occurred while checking/updating chrome.\r\nThe update check failed or the update is pending.\r\nSee the error output for more details.
+
+2025-04-21 13:53:16 [22] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 13:53:16 [22] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 13:53:16 [22] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 13:53:21 [23] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 13:53:21 [23] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 13:53:21 [23] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 13:53:21 [23] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Test failed]: ⚠️ An error occurred while checking/updating chrome.\r\nThe update check failed or the update is pending.\r\nSee the error output for more details.
+
+2025-04-21 14:07:40 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 14:07:40 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Program Files (x86)\Google\Update\GoogleUpdate.exe ...
+
+2025-04-21 14:07:40 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Program Files (x86)\Google\Update\GoogleUpdate.exe
+
+2025-04-21 14:07:40 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 14:07:40 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 14:07:40 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: 75009
+
+2025-04-21 14:07:40 [19] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - ✅ chrome is already up to date.
+
+2025-04-21 14:07:40 [18] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 14:07:40 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 14:07:40 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 14:07:42 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 14:07:42 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 14:07:42 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 14:07:42 [10] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Test failed]: ⚠️ An error occurred while checking/updating chrome.\r\nThe update check failed or the update is pending.\r\nSee the error output for more details.
+
+2025-04-21 14:08:04 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 14:08:04 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Program Files (x86)\Google\Update\GoogleUpdate.exe ...
+
+2025-04-21 14:08:04 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Program Files (x86)\Google\Update\GoogleUpdate.exe
+
+2025-04-21 14:08:04 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 14:08:04 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 14:08:04 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: 75009
+
+2025-04-21 14:08:25 [19] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - ✅ chrome is already up to date.
+
+2025-04-21 14:08:25 [22] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 14:08:25 [22] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 14:08:25 [22] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 14:08:27 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 14:08:27 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 14:08:27 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 14:09:25 [19] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Test failed]: ⚠️ An error occurred while checking/updating chrome.\r\nThe update check failed or the update is pending.\r\nSee the error output for more details.
+
+2025-04-21 14:09:44 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 14:09:44 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Program Files (x86)\Google\Update\GoogleUpdate.exe ...
+
+2025-04-21 14:09:44 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Program Files (x86)\Google\Update\GoogleUpdate.exe
+
+2025-04-21 14:09:44 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 14:09:44 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 14:09:44 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: 75009
+
+2025-04-21 15:02:52 [20] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - ✅ chrome is already up to date.
+
+2025-04-21 15:02:52 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 15:02:52 [23] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 15:02:52 [23] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 15:02:56 [14] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 15:02:56 [14] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 15:02:56 [14] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 15:02:59 [14] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Test failed]: ⚠️ An error occurred while checking/updating chrome.\r\nThe update check failed or the update is pending.\r\nSee the error output for more details.
+
+2025-04-21 15:07:10 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 15:07:11 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Program Files (x86)\Google\Update\GoogleUpdate.exe ...
+
+2025-04-21 15:07:11 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Program Files (x86)\Google\Update\GoogleUpdate.exe
+
+2025-04-21 15:07:11 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 15:07:11 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 15:07:11 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: 75009
+
+2025-04-21 15:07:11 [19] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - ✅ chrome is already up to date.
+
+2025-04-21 15:07:11 [21] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 15:07:11 [21] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 15:07:11 [21] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 15:07:13 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 15:07:13 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 15:07:13 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 15:07:13 [19] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Test failed]: ⚠️ An error occurred while checking/updating chrome.\r\nThe update check failed or the update is pending.\r\nSee the error output for more details.
+
+2025-04-21 15:07:26 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 15:07:26 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Program Files (x86)\Google\Update\GoogleUpdate.exe ...
+
+2025-04-21 15:07:26 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Program Files (x86)\Google\Update\GoogleUpdate.exe
+
+2025-04-21 15:07:26 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 15:07:26 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 15:07:26 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: 75009
+
+2025-04-21 15:07:56 [20] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - ✅ chrome is already up to date.
+
+2025-04-21 15:07:56 [29] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 15:07:56 [29] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 15:07:56 [29] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 15:07:58 [28] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 15:07:58 [28] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 15:07:58 [28] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 15:20:33 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 15:20:33 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:33 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 15:20:34 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 15:20:34 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Program Files (x86)\Google\Update\GoogleUpdate.exe ...
+
+2025-04-21 15:20:34 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Program Files (x86)\Google\Update\GoogleUpdate.exe
+
+2025-04-21 15:20:34 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 15:20:34 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 15:20:34 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: 75009
+
+2025-04-21 15:21:12 [20] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - ✅ chrome is already up to date.
+
+2025-04-21 15:21:12 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 15:21:12 [20] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 15:21:12 [20] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 15:21:14 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 15:21:14 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 15:21:14 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 15:21:37 [20] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - ✅ chrome is already up to date.
+
+2025-04-21 15:21:48 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: msedge - 135.0.3179.85
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 15:21:48 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 15:21:48 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe ...
+
+2025-04-21 15:21:48 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe
+
+2025-04-21 15:21:52 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 15:21:52 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 15:21:52 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: -2147218431
+
+2025-04-21 15:22:00 [19] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Test failed]: ❌ msedge failed.\r\nThere was a problem during installation.\r\n
+
+2025-04-21 15:22:00 [18] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: msedge - 135.0.3179.85
+
+2025-04-21 15:22:00 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 15:22:00 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 15:22:02 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 15:22:02 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 15:22:02 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 15:22:08 [19] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - ✅ msedge is already up to date.
+
+2025-04-21 15:29:32 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: notepad++ - 8.6.8
+
+2025-04-21 15:29:32 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Program Files\Notepad++\updater\GUP.exe ...
+
+2025-04-21 15:29:32 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Program Files\Notepad++\updater\GUP.exe
+
+2025-04-21 15:29:33 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]: 
+
+2025-04-21 15:29:33 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 15:29:33 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1073740791
+
+2025-04-21 15:29:33 [20] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Test failed]: ❌ Possible causes: corrupt files, bad DLL, or antivirus interference.
+
+2025-04-21 15:34:12 [8] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: notepad++ - 8.6.8
+
+2025-04-21 15:34:12 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 15:34:12 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 15:34:31 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]: 
+
+2025-04-21 15:34:31 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 15:34:31 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: 0
+
+2025-04-21 15:34:31 [18] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ notepad++ has been updated successfully.
+
+2025-04-21 15:40:38 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: telegram - 5.13.1.0
+
+2025-04-21 15:40:38 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 15:40:38 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 15:40:40 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -    \                                                                                                                            -    \    |                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 15:40:40 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 15:40:40 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 15:40:40 [19] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Test failed]: ⚠️ An error occurred while checking/updating telegram.\r\nThe update check failed or the update is pending.\r\nSee the error output for more details.
+
+2025-04-21 15:44:28 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: telegram - 5.13.1.0
+
+2025-04-21 15:44:28 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 15:44:28 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 15:44:30 [8] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -                                                                                                                            -    \    |                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 15:44:30 [8] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 15:44:30 [8] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 15:44:30 [8] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ telegram is already up to date.
+
+2025-04-21 15:48:09 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: zoom - 6.4.3.63669
+
+2025-04-21 15:48:09 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 15:48:09 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 15:48:12 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -                                                                                                                            -    \    |                                                                                                                         Es wurde kein installiertes Paket gefunden, das den Eingabekriterien entspricht.
+
+
+2025-04-21 15:48:12 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 15:48:12 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 15:48:12 [11] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Test failed]: ⚠️ An error occurred while checking/updating zoom.\r\nThe update check failed or the update is pending.\r\nSee the error output for more details.
+
+2025-04-21 15:49:43 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: zoom - 6.4.3.63669
+
+2025-04-21 15:49:57 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 15:49:57 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 15:51:07 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -                                                                                                                            -    \    |                                                                                                                         Es wurde kein installiertes Paket gefunden, das den Eingabekriterien entspricht.
+
+
+2025-04-21 15:51:07 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 15:51:07 [19] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 15:51:09 [19] ERROR AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Test failed]: ⚠️ An error occurred while checking/updating zoom.\r\nThe update check failed or the update is pending.\r\nSee the error output for more details.
+
+2025-04-21 15:54:50 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: zoom - 6.4.3.63669
+
+2025-04-21 15:54:55 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 15:54:55 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 15:54:57 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -                                                                                                                            -    \    |                                                                                                                         Es wurde kein installiertes Paket gefunden, das den Eingabekriterien entspricht.
+
+
+2025-04-21 15:54:57 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 15:54:57 [20] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 15:54:57 [20] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ zoom is already up to date.
+
+2025-04-21 15:58:13 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: telegram - 5.13.1.0
+
+2025-04-21 15:58:13 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 15:58:13 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 15:58:17 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -    \    |                                                                                                                           ████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒  1024 KB / 1.78 MB  ██████████████████████████████  1.78 MB / 1.78 MB                                                                                                                          ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  0%  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  0%  █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  5%  █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  6%  ███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  10%  ███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  11%  █████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  31%  █████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  46%  ███████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  50%  ███████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  51%  ███████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  52%  ███████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  53%  ████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒  54%  ████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒  55%  ████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒  56%  █████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒  56%  █████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒  57%  █████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒  59%  ████████████████████▒▒▒▒▒▒▒▒▒▒  67%  ████████████████████▒▒▒▒▒▒▒▒▒▒  68%  █████████████████████▒▒▒▒▒▒▒▒▒  72%  ██████████████████████▒▒▒▒▒▒▒▒  74%  █████████████████████████▒▒▒▒▒  84%  █████████████████████████████▒  99%  █████████████████████████████▒  99%  ██████████████████████████████  100%                                                                                                                           -    \                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 15:58:17 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 15:58:17 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 15:58:17 [10] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ telegram is already up to date.
+
+2025-04-21 15:58:25 [8] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: notepad++ - 8.7.9
+
+2025-04-21 15:58:25 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name notepad++ ...
+
+2025-04-21 15:58:25 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'notepad++' has been terminated.
+
+2025-04-21 15:58:25 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 15:58:25 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 15:58:27 [18] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -                                                                                                                            -    \    |                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 15:58:27 [18] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 15:58:27 [18] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 15:58:27 [18] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ notepad++ is already up to date.
+
+2025-04-21 15:58:40 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 15:58:40 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Program Files (x86)\Google\Update\GoogleUpdate.exe ...
+
+2025-04-21 15:58:40 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Program Files (x86)\Google\Update\GoogleUpdate.exe
+
+2025-04-21 15:58:40 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]: 
+
+2025-04-21 15:58:40 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: [32628:37520:0421/155840.092:VERBOSE1:chrome\updater\updater.cc:319] Version: 137.0.7129.0, opt, 64 bit (x64), command line: "C:\Program Files (x86)\Google\Update\GoogleUpdate.exe" /ua /installsource scheduler
+[32628:37520:0421/155840.092:VERBOSE1:chrome\updater\updater.cc:321] OS version: 10.0.22621.5189, System uptime (seconds): 342808, parent pid: 4060
+[33560:4164:0421/155840.116:VERBOSE1:chrome\updater\updater.cc:319] Version: 137.0.7129.0, opt, 64 bit (x64), command line: "C:\Program Files (x86)\Google\Update\GoogleUpdate.exe" --crash-handler --system "--database=C:\Program Files (x86)\Google\GoogleUpdater\137.0.7129.0\Crashpad" --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=137.0.7129.0 "--attachment=C:\Program Files (x86)\Google\GoogleUpdater\updater.log" --initial-client-data=0x2a8,0x2ac,0x2b0,0xd8,0x2b4,0x7ff776a405d8,0x7ff776a405e4,0x7ff776a405f0
+[33560:4164:0421/155840.116:VERBOSE1:chrome\updater\updater.cc:321] OS version: 10.0.22621.5189, System uptime (seconds): 342808, parent pid: 32628
+[32628:37520:0421/155840.117:VERBOSE1:chrome\updater\crash_reporter.cc:120] Crash handler launched and ready.
+[32628:37520:0421/155840.118:ERROR:chrome\updater\crash_client.cc:116] Failed to fetch completed crash reports: 3
+[32628:37520:0421/155840.118:ERROR:chrome\updater\crash_client.cc:132] Failed to fetch pending crash reports: 3
+[32628:37520:0421/155840.118:VERBOSE2:chrome\updater\update_usage_stats_task_win.cc:41] usage stats enabled by app {8A69D345-D564-463C-AFF1-A69D9E530F96}
+[32628:37520:0421/155840.120:ERROR:third_party\crashpad\crashpad\util\file\file_io_win.cc:181] CreateFile C:\Program Files (x86)\Google\GoogleUpdater\137.0.7129.0\Crashpad\settings.dat: Zugriff verweigert (0x5)
+[32628:37520:0421/155840.121:ERROR:third_party\crashpad\crashpad\util\file\file_io_win.cc:181] CreateFile C:\Program Files (x86)\Google\GoogleUpdater\137.0.7129.0\Crashpad\settings.dat: Zugriff verweigert (0x5)
+[32628:37520:0421/155840.121:VERBOSE1:chrome\updater\updater.cc:90] Crash reporting initialized.
+[32628:37520:0421/155840.122:VERBOSE1:chrome\updater\updater.cc:145] IsUserAdmin: 0, IsUserNonElevatedAdmin: 1, IsUACOn: 1, IsElevatedWithUACOn: 0, LUA: 1
+[32628:37520:0421/155840.122:VERBOSE1:chrome\updater\updater.cc:211] Unknown command line switch.
+[32628:37520:0421/155840.123:VERBOSE1:chrome\updater\updater.cc:326] UpdaterMain (--) returned 75009.
+[33560:4164:0421/155840.149:VERBOSE1:chrome\updater\updater.cc:326] UpdaterMain (--crash-handler) returned 0.
+
+
+2025-04-21 15:58:40 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: 75009
+
+2025-04-21 15:58:40 [10] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - ✅ chrome is already up to date.
+
+2025-04-21 15:58:40 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 15:58:40 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 15:58:40 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 15:58:41 [18] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]:    -                                                                                                                            -    \    |                                                                                                                         Es wurde kein installiertes Paket gefunden, das den Eingabekriterien entspricht.
+
+
+2025-04-21 15:58:41 [18] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 15:58:41 [18] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 15:58:41 [18] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - ✅ chrome is already up to date.
+
+2025-04-21 16:03:50 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [⚠️ Original version]: msedge - 135.0.3179.85
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:03:50 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:03:50 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 16:03:50 [18] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 16:03:52 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔍 Output]:    -    \                                                                                                                            -    \                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 16:03:52 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🛠 Error]: 
+
+2025-04-21 16:03:52 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 16:03:52 [11] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowser_Test - ✅ msedge is already up to date.
+
+2025-04-21 16:16:47 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowsers_Test - [⚠️ Original version]: msedge - 135.0.3179.85
+
+2025-04-21 16:16:47 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 16:16:47 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 16:16:49 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowsers_Test - [🔍 Output]:    -    \                                                                                                                            -    \    |                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 16:16:49 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowsers_Test - [🛠 Error]: 
+
+2025-04-21 16:16:49 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowsers_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 16:16:49 [11] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowsers_Test - ✅ msedge is already up to date.
+
+2025-04-21 16:16:49 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowsers_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 16:16:49 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Program Files (x86)\Google\Update\GoogleUpdate.exe ...
+
+2025-04-21 16:16:49 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Program Files (x86)\Google\Update\GoogleUpdate.exe
+
+2025-04-21 16:16:49 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowsers_Test - [🔍 Output]: 
+
+2025-04-21 16:16:49 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowsers_Test - [🛠 Error]: [31568:37052:0421/161649.947:VERBOSE1:chrome\updater\updater.cc:319] Version: 137.0.7129.0, opt, 64 bit (x64), command line: "C:\Program Files (x86)\Google\Update\GoogleUpdate.exe" /ua /installsource scheduler
+[31568:37052:0421/161649.947:VERBOSE1:chrome\updater\updater.cc:321] OS version: 10.0.22621.5189, System uptime (seconds): 343898, parent pid: 4244
+[37700:3436:0421/161649.969:VERBOSE1:chrome\updater\updater.cc:319] Version: 137.0.7129.0, opt, 64 bit (x64), command line: "C:\Program Files (x86)\Google\Update\GoogleUpdate.exe" --crash-handler --system "--database=C:\Program Files (x86)\Google\GoogleUpdater\137.0.7129.0\Crashpad" --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=137.0.7129.0 "--attachment=C:\Program Files (x86)\Google\GoogleUpdater\updater.log" --initial-client-data=0x2a0,0x2a8,0x2ac,0x27c,0x2b0,0x7ff776a405d8,0x7ff776a405e4,0x7ff776a405f0
+[37700:3436:0421/161649.969:VERBOSE1:chrome\updater\updater.cc:321] OS version: 10.0.22621.5189, System uptime (seconds): 343898, parent pid: 31568
+[31568:37052:0421/161649.969:VERBOSE1:chrome\updater\crash_reporter.cc:120] Crash handler launched and ready.
+[31568:37052:0421/161649.970:ERROR:chrome\updater\crash_client.cc:116] Failed to fetch completed crash reports: 3
+[31568:37052:0421/161649.970:ERROR:chrome\updater\crash_client.cc:132] Failed to fetch pending crash reports: 3
+[31568:37052:0421/161649.970:VERBOSE2:chrome\updater\update_usage_stats_task_win.cc:41] usage stats enabled by app {8A69D345-D564-463C-AFF1-A69D9E530F96}
+[31568:37052:0421/161649.970:ERROR:third_party\crashpad\crashpad\util\file\file_io_win.cc:181] CreateFile C:\Program Files (x86)\Google\GoogleUpdater\137.0.7129.0\Crashpad\settings.dat: Zugriff verweigert (0x5)
+[31568:37052:0421/161649.971:ERROR:third_party\crashpad\crashpad\util\file\file_io_win.cc:181] CreateFile C:\Program Files (x86)\Google\GoogleUpdater\137.0.7129.0\Crashpad\settings.dat: Zugriff verweigert (0x5)
+[31568:37052:0421/161649.971:VERBOSE1:chrome\updater\updater.cc:90] Crash reporting initialized.
+[31568:37052:0421/161649.972:VERBOSE1:chrome\updater\updater.cc:145] IsUserAdmin: 0, IsUserNonElevatedAdmin: 1, IsUACOn: 1, IsElevatedWithUACOn: 0, LUA: 1
+[31568:37052:0421/161649.972:VERBOSE1:chrome\updater\updater.cc:211] Unknown command line switch.
+[31568:37052:0421/161649.972:VERBOSE1:chrome\updater\updater.cc:326] UpdaterMain (--) returned 75009.
+[37700:3436:0421/161649.982:VERBOSE1:chrome\updater\updater.cc:326] UpdaterMain (--crash-handler) returned 0.
+
+
+2025-04-21 16:16:49 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowsers_Test - [🔚 Exit Code]: 75009
+
+2025-04-21 16:16:50 [11] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowsers_Test - ✅ chrome is already up to date.
+
+2025-04-21 16:16:50 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowsers_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 16:16:50 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 16:16:50 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 16:16:51 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowsers_Test - [🔍 Output]:    -                                                                                                                            -    \                                                                                                                         Es wurde kein installiertes Paket gefunden, das den Eingabekriterien entspricht.
+
+
+2025-04-21 16:16:51 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowsers_Test - [🛠 Error]: 
+
+2025-04-21 16:16:51 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowsers_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 16:16:51 [11] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateBrowsers_Test - ✅ chrome is already up to date.
+
+2025-04-21 16:16:51 [17] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateOtherApps_Test - [⚠️ Original version]: notepad++ - 8.7.9
+
+2025-04-21 16:16:51 [17] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 16:16:51 [17] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 16:16:52 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateOtherApps_Test - [🔍 Output]:    -                                                                                                                            -    \                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 16:16:53 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateOtherApps_Test - [🛠 Error]: 
+
+2025-04-21 16:16:53 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateOtherApps_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 16:16:53 [11] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateOtherApps_Test - ✅ notepad++ is already up to date.
+
+2025-04-21 16:16:53 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateOtherApps_Test - [⚠️ Original version]: telegram - 5.13.1.0
+
+2025-04-21 16:16:53 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 16:16:53 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 16:16:54 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateOtherApps_Test - [🔍 Output]:    -                                                                                                                            -    \                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 16:16:54 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateOtherApps_Test - [🛠 Error]: 
+
+2025-04-21 16:16:54 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateOtherApps_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 16:16:54 [10] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateOtherApps_Test - ✅ telegram is already up to date.
+
+2025-04-21 16:16:54 [17] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateOtherApps_Test - [⚠️ Original version]: zoom - 6.4.3.63669
+
+2025-04-21 16:16:55 [17] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 16:16:55 [17] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 16:16:57 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateOtherApps_Test - [🔍 Output]:    -                                                                                                                            -    \                                                                                                                         Es wurde kein installiertes Paket gefunden, das den Eingabekriterien entspricht.
+
+
+2025-04-21 16:16:57 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateOtherApps_Test - [🛠 Error]: 
+
+2025-04-21 16:16:57 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateOtherApps_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 16:16:57 [11] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateOtherApps_Test - ✅ zoom is already up to date.
+
+2025-04-21 16:51:35 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: msedge - 135.0.3179.85
+
+2025-04-21 16:51:35 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 16:51:36 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 16:51:36 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 16:51:36 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 16:51:40 [17] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -    \                                                                                                                           ████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒  1024 KB / 1.78 MB  ██████████████████████████████  1.78 MB / 1.78 MB                                                                                                                          ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  0%  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  0%  ███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  12%  █████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  31%  ██████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  49%  ████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒  55%  ██████████████████▒▒▒▒▒▒▒▒▒▒▒▒  60%  ██████████████████▒▒▒▒▒▒▒▒▒▒▒▒  61%  ██████████████████▒▒▒▒▒▒▒▒▒▒▒▒  62%  ████████████████████▒▒▒▒▒▒▒▒▒▒  69%  █████████████████████▒▒▒▒▒▒▒▒▒  70%  ██████████████████████▒▒▒▒▒▒▒▒  74%  ██████████████████████▒▒▒▒▒▒▒▒  76%  █████████████████████████▒▒▒▒▒  85%  █████████████████████████████▒  99%  █████████████████████████████▒  99%  ██████████████████████████████  100%                                                                                                                           -    \                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 16:51:40 [17] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 16:51:40 [17] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 16:51:40 [17] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ msedge is already up to date.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name chrome ...
+
+2025-04-21 16:51:40 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'chrome' has been terminated.
+
+2025-04-21 16:51:40 [17] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting C:\Program Files (x86)\Google\Update\GoogleUpdate.exe ...
+
+2025-04-21 16:51:40 [17] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process C:\Program Files (x86)\Google\Update\GoogleUpdate.exe
+
+2025-04-21 16:51:41 [12] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]: 
+
+2025-04-21 16:51:41 [12] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: [35876:32852:0421/165140.963:VERBOSE1:chrome\updater\updater.cc:319] Version: 137.0.7129.0, opt, 64 bit (x64), command line: "C:\Program Files (x86)\Google\Update\GoogleUpdate.exe" /ua /installsource scheduler
+[35876:32852:0421/165140.964:VERBOSE1:chrome\updater\updater.cc:321] OS version: 10.0.22621.5189, System uptime (seconds): 345989, parent pid: 42548
+[31780:26740:0421/165140.985:VERBOSE1:chrome\updater\updater.cc:319] Version: 137.0.7129.0, opt, 64 bit (x64), command line: "C:\Program Files (x86)\Google\Update\GoogleUpdate.exe" --crash-handler --system "--database=C:\Program Files (x86)\Google\GoogleUpdater\137.0.7129.0\Crashpad" --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=137.0.7129.0 "--attachment=C:\Program Files (x86)\Google\GoogleUpdater\updater.log" --initial-client-data=0x2b0,0x2b4,0x2b8,0x288,0x2bc,0x7ff776a405d8,0x7ff776a405e4,0x7ff776a405f0
+[31780:26740:0421/165140.985:VERBOSE1:chrome\updater\updater.cc:321] OS version: 10.0.22621.5189, System uptime (seconds): 345989, parent pid: 35876
+[35876:32852:0421/165140.985:VERBOSE1:chrome\updater\crash_reporter.cc:120] Crash handler launched and ready.
+[35876:32852:0421/165140.986:ERROR:chrome\updater\crash_client.cc:116] Failed to fetch completed crash reports: 3
+[35876:32852:0421/165140.986:ERROR:chrome\updater\crash_client.cc:132] Failed to fetch pending crash reports: 3
+[35876:32852:0421/165140.986:VERBOSE2:chrome\updater\update_usage_stats_task_win.cc:41] usage stats enabled by app {8A69D345-D564-463C-AFF1-A69D9E530F96}
+[35876:32852:0421/165140.987:ERROR:third_party\crashpad\crashpad\util\file\file_io_win.cc:181] CreateFile C:\Program Files (x86)\Google\GoogleUpdater\137.0.7129.0\Crashpad\settings.dat: Zugriff verweigert (0x5)
+[35876:32852:0421/165140.987:ERROR:third_party\crashpad\crashpad\util\file\file_io_win.cc:181] CreateFile C:\Program Files (x86)\Google\GoogleUpdater\137.0.7129.0\Crashpad\settings.dat: Zugriff verweigert (0x5)
+[35876:32852:0421/165140.988:VERBOSE1:chrome\updater\updater.cc:90] Crash reporting initialized.
+[35876:32852:0421/165140.989:VERBOSE1:chrome\updater\updater.cc:145] IsUserAdmin: 0, IsUserNonElevatedAdmin: 1, IsUACOn: 1, IsElevatedWithUACOn: 0, LUA: 1
+[35876:32852:0421/165140.989:VERBOSE1:chrome\updater\updater.cc:211] Unknown command line switch.
+[35876:32852:0421/165140.990:VERBOSE1:chrome\updater\updater.cc:326] UpdaterMain (--) returned 75009.
+[31780:26740:0421/165141.003:VERBOSE1:chrome\updater\updater.cc:326] UpdaterMain (--crash-handler) returned 0.
+
+
+2025-04-21 16:51:41 [12] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: 75009
+
+2025-04-21 16:51:41 [12] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ chrome is already up to date.
+
+2025-04-21 16:51:41 [17] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 16:51:41 [12] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 16:51:41 [12] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 16:51:42 [12] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -    \                                                                                                                            -    \                                                                                                                         Es wurde kein installiertes Paket gefunden, das den Eingabekriterien entspricht.
+
+
+2025-04-21 16:51:42 [12] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 16:51:42 [12] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 16:51:42 [12] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ chrome is already up to date.
+
+2025-04-21 16:51:42 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: notepad++ - 8.7.9
+
+2025-04-21 16:51:42 [12] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name notepad++ ...
+
+2025-04-21 16:51:42 [12] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'notepad++' has been terminated.
+
+2025-04-21 16:51:42 [12] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 16:51:42 [12] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 16:51:44 [12] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -                                                                                                                            -    \                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 16:51:44 [12] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 16:51:44 [12] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 16:51:44 [12] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ notepad++ is already up to date.
+
+2025-04-21 16:51:44 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: telegram - 5.13.1.0
+
+2025-04-21 16:51:44 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name Telegram ...
+
+2025-04-21 16:51:44 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'Telegram' has been terminated.
+
+2025-04-21 16:51:44 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 16:51:44 [8] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 16:51:46 [12] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -                                                                                                                            -    \                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 16:51:46 [12] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 16:51:46 [12] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 16:51:46 [12] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ telegram is already up to date.
+
+2025-04-21 16:51:46 [17] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: zoom - 6.4.3.63669
+
+2025-04-21 16:51:46 [17] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name Zoom ...
+
+2025-04-21 16:51:46 [17] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'Zoom' has been terminated.
+
+2025-04-21 16:51:46 [17] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name Zoom ...
+
+2025-04-21 16:51:46 [17] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'Zoom' has been terminated.
+
+2025-04-21 16:51:46 [17] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name Zoom ...
+
+2025-04-21 16:51:46 [17] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'Zoom' has been terminated.
+
+2025-04-21 16:51:46 [12] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 16:51:46 [12] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 16:51:48 [12] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -                                                                                                                            -    \                                                                                                                         Es wurde kein installiertes Paket gefunden, das den Eingabekriterien entspricht.
+
+
+2025-04-21 16:51:48 [12] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 16:51:48 [12] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 16:51:48 [12] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ zoom is already up to date.
+
+2025-04-21 16:56:23 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: msedge - 135.0.3179.85
+
+2025-04-21 16:56:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 16:56:23 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 16:56:25 [17] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -                                                                                                                            -    \    |                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 16:56:25 [17] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 16:56:25 [17] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 16:56:25 [17] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ msedge is already up to date.
+
+2025-04-21 16:56:25 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 16:56:25 [16] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 16:56:25 [16] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 16:56:27 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -                                                                                                                            -    \                                                                                                                         Es wurde kein installiertes Paket gefunden, das den Eingabekriterien entspricht.
+
+
+2025-04-21 16:56:27 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 16:56:27 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 16:56:27 [16] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ chrome is already up to date.
+
+2025-04-21 16:56:27 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: notepad++ - 8.7.9
+
+2025-04-21 16:56:27 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name notepad++ ...
+
+2025-04-21 16:56:27 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'notepad++' has been terminated.
+
+2025-04-21 16:56:27 [16] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 16:56:27 [16] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 16:56:28 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -                                                                                                                            -    \                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 16:56:28 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 16:56:28 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 16:56:28 [16] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ notepad++ is already up to date.
+
+2025-04-21 16:56:28 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: telegram - 5.13.1.0
+
+2025-04-21 16:56:28 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 16:56:28 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 16:56:30 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -                                                                                                                            -    \                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 16:56:30 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 16:56:30 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 16:56:30 [10] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ telegram is already up to date.
+
+2025-04-21 16:56:30 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: zoom - 6.4.3.63669
+
+2025-04-21 16:56:30 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 16:56:30 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 16:56:32 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -                                                                                                                            -    \                                                                                                                         Es wurde kein installiertes Paket gefunden, das den Eingabekriterien entspricht.
+
+
+2025-04-21 16:56:32 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 16:56:32 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 16:56:32 [16] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ zoom is already up to date.
+
+2025-04-21 18:11:43 [10] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: msedge - 135.0.3179.85
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - Kill processes with the name msedge ...
+
+2025-04-21 18:11:43 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - KillProcesses - The process with the name 'msedge' has been terminated.
+
+2025-04-21 18:11:43 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 18:11:43 [10] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 18:11:48 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -    \    |    /    -                                                                                                                           ████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒  1024 KB / 1.78 MB  ██████████████████████████████  1.78 MB / 1.78 MB                                                                                                                          ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  0%  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  0%  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  1%  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  2%  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  3%  █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  4%  ███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  10%  ███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  11%  ███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  12%  ███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  13%  ████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  14%  █████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  17%  █████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  18%  █████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  19%  ███████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  38%  █████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒  57%  ████████████████████▒▒▒▒▒▒▒▒▒▒  67%  ████████████████████▒▒▒▒▒▒▒▒▒▒  68%  █████████████████████▒▒▒▒▒▒▒▒▒  72%  ██████████████████████▒▒▒▒▒▒▒▒  75%  █████████████████████████▒▒▒▒▒  84%  █████████████████████████████▒  99%  █████████████████████████████▒  99%  ██████████████████████████████  100%                                                                                                                           -    \    |                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 18:11:48 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 18:11:48 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 18:11:48 [11] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ msedge is already up to date.
+
+2025-04-21 18:11:48 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: chrome - 135.0.7049.96
+
+2025-04-21 18:11:48 [16] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 18:11:48 [16] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 18:11:50 [17] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -    \    |    /                                                                                                                            -    \                                                                                                                         Es wurde kein installiertes Paket gefunden, das den Eingabekriterien entspricht.
+
+
+2025-04-21 18:11:50 [17] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 18:11:50 [17] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 18:11:50 [17] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ chrome is already up to date.
+
+2025-04-21 18:11:50 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: notepad++ - 8.7.9
+
+2025-04-21 18:11:50 [17] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 18:11:50 [17] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 18:11:52 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -                                                                                                                            -    \                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 18:11:52 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 18:11:52 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 18:11:52 [16] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ notepad++ is already up to date.
+
+2025-04-21 18:11:52 [17] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: telegram - 5.13.1.0
+
+2025-04-21 18:11:52 [16] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 18:11:52 [16] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 18:11:54 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -                                                                                                                            -    \                                                                                                                         Kein verfügbares Upgrade gefunden.
+In den konfigurierten Quellen sind keine neueren Paketversionen verfügbar.
+
+
+2025-04-21 18:11:54 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 18:11:54 [11] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335189
+
+2025-04-21 18:11:54 [11] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ telegram is already up to date.
+
+2025-04-21 18:11:54 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [⚠️ Original version]: zoom - 6.4.3.63669
+
+2025-04-21 18:11:54 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Starting winget ...
+
+2025-04-21 18:11:54 [11] DEBUG AutoProcess.Contracts.Managers.Processes.IProcessAgent - UpdateProcess - Waiting for the completion process winget
+
+2025-04-21 18:11:56 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔍 Output]:    -                                                                                                                            -    \                                                                                                                         Es wurde kein installiertes Paket gefunden, das den Eingabekriterien entspricht.
+
+
+2025-04-21 18:11:56 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🛠 Error]: 
+
+2025-04-21 18:11:56 [16] DEBUG AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - [🔚 Exit Code]: -1978335212
+
+2025-04-21 18:11:56 [16] INFO  AutoProcess.Tests.AutoProcess.Managers.Tests.AutoProcess_Managers_Test - UpdateApps_Test - ✅ zoom is already up to date.
