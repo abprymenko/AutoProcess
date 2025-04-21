@@ -13,7 +13,10 @@ git init
 
 * **CLONE**
 
-``` git clone https://github.com/abprymenko/AutoProcess.git ```
+```
+git clone https://github.com/abprymenko/AutoProcess.git
+```
+
 
 _... perform some manipulations with a code ..._
 
