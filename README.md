@@ -1,14 +1,31 @@
 # AutoProcess
+ 
 Automatic process update
+ 
+### Commands: -------
 
-git init
-git add .
-git commit -m "first commit"
-git branch -M master
-git remote add origin https://github.com/abprymenko/AutoProcess.git
-git push -u origin master
+* **INIT** ``` git init
+```
 
-…or push an existing repository from the command line
+* **CLONE** ``` git clone https://github.com/abprymenko/AutoProcess.git ```
+ 
+_... perform some manipulations with a code ..._
+ 
+* **STATUS** ``` git status --short
+```
+ 
+* **ADD** ``` git add . ```
+ 
+* **COMMIT** ``` git commit -a -m "Your_commit_message" ```
+
+* **BRANCH**
+```
+ git branch -M master
+```
+
+* **REMOTE**
+```
 git remote add origin https://github.com/abprymenko/AutoProcess.git
-git branch -M master
-git push -u origin master
+```
+
+* **PUSH** ``` git push -u origin master ```
